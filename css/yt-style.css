@@ -22,6 +22,10 @@ body {
   margin-bottom: 0;
 }
 
+.header-content h1.cursive a {
+  color: #6434eb;
+}
+
 .header-content h2.seventies {
   font-family: "Bowlby One SC", cursive;
   font-size: 1.5em;
@@ -29,6 +33,10 @@ body {
   position: relative;
   top: 0;
   margin: 0 0 0 12px;
+}
+
+.header-content h2.seventies a {
+  color: #150461;
 }
 
 .header-content h1.cursive a,
