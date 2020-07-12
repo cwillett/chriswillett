@@ -1,7 +1,7 @@
 if (screen.width <= 699) {
-  document.location = "index_mobile.html";
+  document.location = "youtube-videos.html";
 }
-unmuteButton.addEventListener("click", function() {
+unmuteButton.addEventListener("click", function () {
   console.log("button clicked");
   video.muted = !video.muted;
 });
