@@ -18,7 +18,6 @@ body {
 }
 
 .container {
-  max-width: 960px;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -69,8 +68,6 @@ body {
   margin: 0 0 0 12px;
 }
 
-/* git filter-repo --invert-paths --path */
-
 .clear {
   clear: both;
 }
@@ -81,16 +78,21 @@ body {
   right: 50px;
 }
 
-#shows {
+#nav {
   z-index: 2147483647;
   position: absolute;
   top: 30px;
   right: 30px;
 }
 
-#shows a {
+.nav {
+  float: left;
+}
+
+.nav a {
   color: white;
   font-size: 14px;
+  padding: 0 10px;
 }
 
 #unmuteButton {
