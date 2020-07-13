@@ -22,6 +22,12 @@ body {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 699px) {
+  .header-content h1.cursive {
+    font-size: 1.5em;
+  }
+}
+
 .header-content h1.cursive a {
   color: #6434eb;
 }
