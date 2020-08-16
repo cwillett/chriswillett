@@ -1,0 +1,154 @@
+body {
+  /* background-color: #bbb; */
+  background-color: #888;
+}
+
+.container {
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  /* z-index: initial; */
+  width: 100%;
+  height: 100px;
+  padding: 0.5rem;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.header-content h1.cursive {
+  font-family: "Rock Salt", cursive;
+  font-size: 2em;
+  color: #6434eb;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 699px) {
+  .header-content h1.cursive {
+    font-size: 1.5em;
+  }
+}
+
+.header-content h1.cursive a {
+  color: #6434eb;
+}
+
+.header-content h2.seventies {
+  font-family: "Bowlby One SC", cursive;
+  font-size: 1.5em;
+  color: #150461;
+  position: relative;
+  top: 0;
+  margin: 0 0 0 12px;
+}
+
+.header-content h2.seventies a {
+  color: #150461;
+}
+
+.header-content h1.cursive a,
+.header-content h2.seventies a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 700px) {
+  .video {
+    width: 720px;
+    height: 405px;
+  }
+}
+
+.shows {
+  text-decoration: none;
+  color: #150461;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 699px) {
+  .narrow {
+    width: 20%;
+  }
+}
+
+.logo {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.header-content ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+.header-content li {
+  list-style: none;
+  display: inline-block;
+}
+
+.flexbox {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.video {
+  margin: 10px auto;
+}
+
+.bio {
+  font-size: 18px;
+  /* color: #150461; */
+  color: white;
+  margin: 30px 20px;
+  text-align: justify;
+  display: inline-block;
+}
+
+footer {
+  margin: 0 auto;
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+/* Resets default styling */
+.social-media-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Displays the list-items in a row */
+.social-media-icons li {
+  display: inline-block;
+}
+
+/* Set up the social media icons and enable transitioning for a smooth hovering effect */
+.social-media-icons a {
+  background-image: url(../media/social-media-icons.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 180px;
+  transition: all 350ms ease-out;
+  -webkit-transition: all 350ms ease-out;
+  -o-transition: all 350ms ease-out;
+  width: 180px;
+}
+
+.social-media-icons a:hover {
+  filter: alpha(opacity=80); /* Fallback for older versions of IE */
+  opacity: 0.8;
+}
+
+/* Move the background to the right position for each social network */
+.facebook {
+  background-position: -50px -30px;
+}
+.twitter {
+  background-position: -230px -30px; /* Obviously, this is obsolete to use here, but it illustrates the fact the twitter image is the first image */
+}
+.instagram {
+  background-position: -410px -230px; /* Obviously, this is obsolete to use here, but it illustrates the fact the twitter image is the first image */
+}
